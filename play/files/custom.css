@@ -1,0 +1,88 @@
+/* General */
+body{ padding-bottom:5px; background:#789}
+.container, .login-form-wrap{ margin:20px auto; padding:20px 20px 10px; background:#fff; box-shadow:0 0 20px 2px #567; border-radius:10px}
+
+/* Login Form */
+.login-form-wrap{ width:310px; margin:150px auto 20px}
+.login-form-wrap .logo{ margin-bottom:20px; text-align:center}
+
+/* Header */
+.header .logo img{ width:100% }
+
+/* user wrap */
+.user-form{ width:390px;}
+.user-form .logo{ margin-bottom:20px; text-align:center}
+.container, .user-form{ margin:20px auto; padding:20px 20px 10px; box-shadow:0 0 20px 2px #567; border-radius:10px;background:#fff} 
+.panel.panel-info.user-add-form { padding: 20px }     
+ .upload-wrap{width:310px;  margin: auto}    
+ .btn.btn-large.btn-success.upload { margin-top: 20px}                                               
+
+/* Session Details */
+.sessions-details{ float:right}
+.session-details .links{ display:block}
+.user-role{ display: block; margin-top:5px; font-size:14px; font-weight:bold}
+.store-name{ color:#999}
+
+/* Nav */
+.nav-wrap{ margin-top:20px}
+
+/* Form */
+fieldset{ margin-bottom:20px; border:none;}       
+legend{ margin-bottom:10px; font-size:13px; color:#999; text-transform:uppercase}
+.form-horizontal label{ width:170px; margin-right:10px}
+.form-horizontal .form-control{ display:inline-block; width:265px}
+.form-actions{ text-align:right}
+
+/* Table */
+tr.request-reassign, tr.request-cancel{ background:#FAF0E6; border-left:3px solid #CD5C5C}
+.strikeout{ color:#999; text-decoration:line-through}
+.unavailable{ color:#CD5C5C}
+.partial{ color:#F90}
+
+.order-details-table-wrap{ max-height:400px; overflow-y:auto}
+.order-details-table-wrap table{ margin-bottom:0}
+
+.status-history-table-wrap{ max-height:160px; overflow-y:auto}
+
+/* Breadcrumbs */
+.breadcrumbs{ display:block; margin:0 0 5px; font-size:12px; font-weight:bold}
+
+/* Footer */
+.footer, .footer-compact{ margin:10px 0 0; padding:0; font-size:11px; color:#fff}
+.footer .container, .footer-compact .container{ margin:0 auto; padding:0; background:none; box-shadow:none; border-radius:0}
+.footer-compact .container{ width:310px}
+.footer a, .footer-compact a{ color:#fff; text-decoration:underline}
+
+/* Overrides */
+.alpha{ margin-left:0 !important}
+.omega{ margin-right:0 !important}
+.marginright10{ margin-right:10px}
+.marginright20{ margin-right:20px}
+.nomarginbottom{ margin-bottom:0 !important}
+.hidden{ display:none !important}
+.visible{ display:block !important}
+dd{ margin: 0 0 10px}
+.panel-heading{ font-weight:bold}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{ font-weight:bold}
+h1,.h1{ margin-bottom:20px; padding:20px 0 0; border-top:2px solid #ddd; font-size:24px}
+.alert{ font-size:13px}
+.help-block.has-error{ color:#CD5C5C}
+.pagination{ margin:0}
+.modal-header{ background:#1E90FF; color:#fff; border:none; border-radius:5px 5px 0 0}
+.modal-title, .modal-header .close{ color:#fff; opacity:1}
+.modal-footer{ background:#ddd; border:none; border-radius:0 0 5px 5px}
+.navbar-header.menu{background-color:#d9edf7 ; margin-bottom: 10px; }  
+.navbar-header.menu a.active{background-color: #E9DFD6;}
+.nav > li{margin-left: 0;}
+.btn.btn-large.btn-success.add-user {
+    margin-right: 5px;
+}
+.milk-run{float:none; margin:auto}
+
+/* toot-tip*/
+
+.tooltip{position: relative; opacity:1;}
+a.tooltip {outline:none; } a.tooltip strong {line-height:30px;} a.tooltip:hover {text-decoration:none;} a.tooltip span { z-index:10;display:none; padding:14px 20px; margin-top:60px; margin-left:-160px; width:300px; line-height:16px; } a.tooltip:hover span{ display:inline; position:absolute; border:2px solid #FFF; color:#EEE; background:#333 url(cssttp/css-tooltip-gradient-bg.png) repeat-x 0 0; } .callout {z-index:20;position:absolute;border:0;top:-14px;left:120px;} /*CSS3 extras*/ a.tooltip span { border-radius:2px; box-shadow: 0px 0px 8px 4px #666; /*opacity: 0.8;*/ }
+
+
+
